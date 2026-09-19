@@ -57,3 +57,7 @@ Fahrenheit: 14.0
 ## Part D
 
 The local repository was connected to the supplied public GitHub repository and pushed to `main`. The `feature/add-greeting` branch adds `greet(name)` to `utils.py`, calls it from `main.py`, and is pushed for a pull request into `main`.
+
+## Part E: Branches and pull requests
+
+Developers use branches and pull requests instead of committing directly to `main` so new work is isolated, the stable branch stays reliable, and several people can work on different changes at the same time. During code review, other developers inspect the pull request's diff, run or check tests, leave comments or requested changes, and approve it when the implementation is ready to merge.
